@@ -1444,7 +1444,7 @@ blockquote p {
   outline: 0;
   border: 0;
   text-decoration: none;
-  color: inherit;
+  color: FEA30E;
 }
 .dropdown .btn-link:focus {
   text-decoration: none;
@@ -1460,9 +1460,8 @@ blockquote p {
           align-items: center;
 }
 .dropdown-wrap > li .ht-btn {
-  text-transform: uppercase;
   line-height: 47.5px;
-  color: #fefefe;
+  color: #084703;
   font-size: 14px;
   padding: 0;
 }
@@ -1571,7 +1570,7 @@ blockquote p {
   font-size: 18px;
 }
 .header-contact a:hover {
-  color: #abd373;
+  color: #ffffff;
 }
 .header-contact i {
   background-color: #abd373;
