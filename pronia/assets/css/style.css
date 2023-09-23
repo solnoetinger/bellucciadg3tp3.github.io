@@ -67,7 +67,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #abd373;
+  color: #F69903;
 }
 
 a,
@@ -473,7 +473,7 @@ img {
 }
 
 .text-black * {
-  color: black;
+  color: #084703;
 }
 
 /* ---Background Color--- */
@@ -489,7 +489,7 @@ img {
 .section-title {
   text-transform: 
   position: relative;
-  color: #393939;
+  color: #084703;
   font-size: 36px;
   line-height: 27px;
   padding-left: 90px;
@@ -817,13 +817,13 @@ img {
   font-size: 16px;
 }
 .btn-pronia-primary {
-  background-color: #abd373;
-  border-color: #abd373;
+  background-color: #084703;
+  border-color: #084703;
   color: #ffffff;
 }
 .btn-pronia-primary:hover {
-  background-color: #525252;
-  border-color: #525252;
+  background-color: #F69903;
+  border-color: #F69903;
   color: #ffffff;
 }
 .btn-pronia-secondary {
@@ -832,8 +832,8 @@ img {
   color: #ffffff;
 }
 .btn-pronia-secondary:hover {
-  background-color: #abd373;
-  border-color: #abd373;
+  background-color: #F69903;
+  border-color: #F69903;
   color: #ffffff;
 }
 .btn-white {
@@ -1513,7 +1513,7 @@ blockquote p {
   opacity: 1;
 }
 .dropdown-menu li a:hover, .dropdown-menu li a:focus {
-  background-color: #abd373;
+  background-color: #F69903;
   color: #ffffff;
 }
 .dropdown-menu li a {
@@ -1752,7 +1752,7 @@ blockquote p {
   padding: 40px;
 }
 .megamenu .title {
-  text-transform: uppercase;
+  text-transform: 
   margin-bottom: 25px;
   font-size: 18px;
   color: #383838;
@@ -1989,7 +1989,7 @@ blockquote p {
   }
 }
 .slide-inner.style-2 .slide-content .title:before {
-  background-color: #abd373;
+  background-color: #084703;
   width: 100px;
   height: 3px;
   content: "";
@@ -2029,7 +2029,7 @@ blockquote p {
   }
 }
 .slide-content .title {
-  text-transform: uppercase;
+  text-transform: 
   font-weight: 400;
   font-size: 90px;
   line-height: 94px;
@@ -3036,7 +3036,7 @@ blockquote p {
   position: relative;
 }
 .product-img img {
-  width: 100%;
+  width: 70%;
 }
 .product-img img.secondary-img {
   position: absolute;
@@ -3046,7 +3046,7 @@ blockquote p {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  width: 100%;
+  width: 70%;
 }
 .product-content {
   padding-top: 10px;
@@ -4967,7 +4967,8 @@ blockquote p {
   right: 0;
 }
 .product-list-view .product-item {
-  border: 1px solid #dee2e6;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 25px;
   padding-left: 30px;
   padding-right: 30px;
