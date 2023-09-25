@@ -771,8 +771,8 @@ img {
   }
 }
 .social-link.with-border ul li a {
-  border: 1px solid #abd373;
-  color: #abd373;
+  border: 1px solid #83A280;
+  color: #83A280;
   border-radius: 100%;
   width: 40px;
   height: 40px;
@@ -780,8 +780,8 @@ img {
   text-align: center;
 }
 .social-link.with-border ul li a:hover {
-  background-color: #abd373;
-  border-color: #abd373;
+  background-color: #83a280;
+  border-color: #83a280;
 }
 .social-link.with-border ul li a:hover i {
   color: #ffffff;
@@ -2321,7 +2321,7 @@ blockquote p {
   transition: all 0.3s ease 0s;
 }
 .swiper-pagination-bullet:before {
-  background-color: #abd373;
+  background-color: #83A280;
   border-radius: 100%;
   content: "";
   position: absolute;
@@ -2331,7 +2331,7 @@ blockquote p {
   height: calc(100% - 4px);
 }
 .swiper-pagination-bullet-active {
-  border-color: #abd373;
+  border-color: #83A280;
 }
 .swiper-pagination.without-absolute {
   position: relative;
@@ -4011,7 +4011,7 @@ blockquote p {
 .blog-content .title {
   text-align: center;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 35px;
   margin-bottom: 15px;
 }
 @media (max-width: 1199px) {
@@ -4418,7 +4418,6 @@ blockquote p {
   background-color: #525252;
 }
 .testimonial-item:before {
-  content: url(../images/testimonial/icon/quotation.png);
   border-bottom-left-radius: 100%;
   background-color: #abd373;
   position: absolute;
@@ -4434,8 +4433,7 @@ blockquote p {
   transition: all 0.3s ease 0s;
 }
 .testimonial-item .user-name {
-  text-transform: uppercase;
-  color: #434343;
+  color: #084703;
   font-size: 16px;
   font-weight: 400;
   padding-top: 25px;
@@ -4444,8 +4442,9 @@ blockquote p {
   color: #434343;
 }
 .testimonial-item .user-comment {
-  color: #434343;
-  font-style: italic;
+  color: #084703;
+  font-size: 20px;
+
   line-height: 32px;
 }
 
@@ -5027,6 +5026,7 @@ blockquote p {
 }
 .product-list-view .product-content .product-name {
   font-size: 20px;
+  letter-spacing: 3px;
 }
 .product-list-view .product-content .rating-box {
   padding-bottom: 10px;
@@ -5038,8 +5038,8 @@ blockquote p {
           justify-content: flex-start;
 }
 .product-list-view .product-content .short-desc {
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 27px;
+  line-height: 32px;
 }
 .product-list-view .product-add-action {
   padding-top: 20px;
@@ -5116,11 +5116,13 @@ blockquote p {
 .contact-title {
   margin-bottom: 15px;
   font-size: 30px;
+  color: #084703;
 }
 .contact-desc {
   margin-bottom: 35px;
   font-size: 14px;
   line-height: 21px;
+  color: #084703;
 }
 .contact-list li {
   display: -webkit-box;
@@ -5255,7 +5257,7 @@ blockquote p {
   color: #555252;
 }
 .frequently-area .frequently-item > ul > li.has-sub > a:hover, .frequently-area .frequently-item > ul > li.children > a:hover {
-  color: #abd373;
+  color: #83A280;
 }
 .frequently-area .frequently-item > ul > li.has-sub > a i, .frequently-area .frequently-item > ul > li.children > a i {
   font-size: 25px;
