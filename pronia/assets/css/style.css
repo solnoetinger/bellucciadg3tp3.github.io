@@ -524,6 +524,7 @@ img {
   right: 0;
 }
 .section-title-wrap {
+  margin-top: 5%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -542,8 +543,8 @@ img {
 .section-desc {
   text-align: center;
   line-height: 31px;
-  color: black;
-  margin-bottom: 55px;
+  color: #084703;
+  margin-bottom: 15px;
   max-width: 580px;
 }
 
@@ -792,7 +793,7 @@ img {
   width: 160px;
   height: 47px;
   line-height: 47px;
-  font-size: 16px;
+  font-size: 25px;
   text-transform: uppercase;
   overflow: hidden;
   border-radius: 23.5px;
@@ -815,6 +816,7 @@ img {
   height: 65px;
   line-height: 65px;
   font-size: 16px;
+  text-align: center;
 }
 .btn-pronia-primary {
   background-color: #084703;
@@ -3053,12 +3055,12 @@ blockquote p {
 }
 .product-content .product-name {
   margin-bottom: 5px;
-  color: #303030;
+  color: #F69903;
   font-size: 18px;
   display: block;
 }
 .product-content .product-name:hover {
-  color: #abd373;
+  color: #084703;
 }
 .product-add-action {
   -webkit-transition: all 0.3s ease 0s;
@@ -4007,6 +4009,7 @@ blockquote p {
 /*  12. Blog
 /*----------------------------------------*/
 .blog-content .title {
+  text-align: center;
   font-weight: 700;
   font-size: 24px;
   margin-bottom: 15px;
@@ -4014,19 +4017,22 @@ blockquote p {
 @media (max-width: 1199px) {
   .blog-content .title {
     font-size: 21px;
+    text-align: center;
   }
 }
 .blog-content .title a {
-  color: #525252;
+  color: #084703;
 }
 .blog-content .title a:hover {
-  color: #abd373;
+  color: #F69903;
 }
 .blog-content .short-desc {
-  line-height: 30px;
-  margin-bottom: 45px;
+  line-height: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .blog-meta {
+  text-align: center;
   margin-bottom: 20px;
 }
 .blog-meta * {
@@ -4034,10 +4040,10 @@ blockquote p {
 }
 .blog-meta ul li {
   display: inline-block;
-  text-transform: uppercase;
 }
 .blog-meta ul li:not(:last-child) {
   padding-right: 10px;
+  font-size: 45px;
 }
 .blog-meta ul li i {
   vertical-align: text-bottom;
@@ -4967,8 +4973,6 @@ blockquote p {
   right: 0;
 }
 .product-list-view .product-item {
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 25px;
   padding-left: 30px;
   padding-right: 30px;
@@ -4977,6 +4981,7 @@ blockquote p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
