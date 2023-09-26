@@ -139,7 +139,6 @@ img {
   }
   .container .row {
     --bs-gutter-x: 30px;
-  }
 }
 
 /* ---Section Space--- */
@@ -1097,7 +1096,7 @@ blockquote p {
 .quantity .cart-plus-minus .cart-plus-minus-box {
   background-color: #505050;
   border: 1px solid #505050;
-  color: #ffffff;
+  color: #F69903;
   text-align: center;
   width: 75px;
   height: 50px;
@@ -2018,12 +2017,13 @@ blockquote p {
   }
 }
 .slide-content .offer {
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 47px;
-  line-height: 65px;
+  font-family: Prompt;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 18px;
   display: block;
 }
+
 @media (max-width: 991px) {
   .slide-content .offer {
     font-size: 30px;
@@ -3931,14 +3931,15 @@ blockquote p {
   }
 }
 .banner-with-counter .counter-item .count-wrap * {
-  color: #abd373;
+  color: #;
   font-size: 40px;
+  font-weight: bold;
 }
 .banner-with-counter .counter-item .count-wrap .prefix {
   line-height: 1;
 }
 .banner-with-counter .counter-item .count-title {
-  color: #3b3b3b;
+  color: #084703;
   font-weight: 300;
   font-size: 30px;
 }
@@ -4577,13 +4578,8 @@ blockquote p {
   opacity: 1;
   visibility: visible;
 }
-.team-item:hover .team-content {
-  opacity: 0;
-}
-.team-img {
-  background-color: #abd373;
-  border-radius: 100%;
-  position: relative;
+
+
 }
 @media (max-width: 991px) {
   .team-img {
