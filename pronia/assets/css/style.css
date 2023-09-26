@@ -1096,7 +1096,7 @@ blockquote p {
 .quantity .cart-plus-minus .cart-plus-minus-box {
   background-color: #505050;
   border: 1px solid #505050;
-  color: #F69903;
+  color: #ffffff;
   text-align: center;
   width: 75px;
   height: 50px;
@@ -4579,6 +4579,7 @@ blockquote p {
   visibility: visible;
 }
 
+}
 
 }
 @media (max-width: 991px) {
