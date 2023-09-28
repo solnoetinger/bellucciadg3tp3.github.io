@@ -4093,7 +4093,6 @@ blockquote p {
         -ms-flex-direction: column;
             flex-direction: column;
 }
-  width: 50%;
 }
 @media (max-width: 767px) {
   .blog-list-item .blog-img {
