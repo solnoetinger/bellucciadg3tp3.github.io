@@ -242,7 +242,7 @@
             autoplay: {
                 delay: 5000,
             },
-            loop: true,
+            loop: false,
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
